@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Restaurant</title>
+        <title>Bonkers</title>
     </head>
     <body>
-        <center><h1>Restaurant</h1></center><hr>
+        <center><h1>Bonkers</h1></center><hr>
         <p>
             <table>
                 <thead>
                     <tr>
-                        <th width="25%"><a href="restaurant.html">Home</a></th>
-                        <th width="30%"><a href="menu.html">Menu</a></th>
+                        <th width="25%"><a href="Bonkers.html">Home</a></th>
+                        <th width="30%"><a href="Menu.html">Menu</a></th>
                         <th width="30%"><a href="ContactUs.html">Contact Us</a></th>
                     </tr>
                 </thead>
             </table>
         </p>
         <hr>
+        <body>
+        <form action="ContactUs.html" method="post">
+            <div>
+                <center><p><b>Name:</b>&emsp; <input type="text" name="Name" /></center></p>
+            </div>
+            <div>
+                <center><p><b>Email:</b>&emsp; <input type="text" name="Email" /></center></p>
+            </div>
+            <div>
+                <center><p><b>Phone:</b>&emsp; <input type="text" name="Phone" /></center></p>
+            </div>
+            <p>
+                    <center><b>Reason for Inquiry:</b>&emsp; <select name="Reason"Reason />
+                        <option value="Catering">Catering</option>
+                        <option value="Private Party">Private Party</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                        </select></center>
+                </p>
+            <p>
+                <center><b>Additional Information:</b>&emsp; <textarea name="Additional Information">
+                </textarea>
+            </p>
+                <b>Have you been to the restaurant:</b>&emsp; <input type="radio" name="Answer" 
+                value="No" checked/> No
+                <input type="radio" name="Answer" value="Yes"/> Yes
+            <div>
+                <b>Best days to contact you:</b>&emsp; 
+                <input type="checkbox" name="Monday" value="M" />M 
+                <input type="checkbox" name="Tuesday" value="T"/>T
+                <input type="checkbox" name="Wednesday" value="W"/>W
+                <input type="checkbox" name="Thursday" value="Thursday"/>Th
+                <input type="checkbox" name="Friday" value="Friday"/>F
+            </div>
+            <div>
+                <p><center><input type="submit" name="Send Request" value="Send Request" /></center></p> 
+            </div>
+        </form>
     </body>
+    <div style="position: relative; text-align: center">
+        <p style="position: fixed; bottom: 0; width:100%;"><hr><br/></p></div>
+    <footer>
+        <center>123 Restaurant Rd, San Diego, California 92154</center><br/>
+        <center>619-357-1521</center>
 </html>
