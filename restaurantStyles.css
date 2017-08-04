@@ -1,0 +1,25 @@
+body {
+    background-color: crimson
+}
+
+h1 {
+    color:gold
+}
+
+a {
+color:gold
+}
+
+footer {
+    color:gold
+}
+
+th {
+    color:gold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+td {
+    color:gold
+}
