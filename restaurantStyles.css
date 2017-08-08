@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    color: gold;
 }
 
 h1 {
@@ -8,9 +9,8 @@ h1 {
 }
 
 a {
-color:gold
+    color: gold;
 }
-
 footer {
     color:gold;
     font-weight: bold;
@@ -26,4 +26,28 @@ th {
 td {
     color:gold;
     text-align: left;
+}
+
+.th1 {
+    padding-left: 3cm; 
+}
+
+.td1 {
+    padding-left: 3.5cm;
+}
+
+.th2 {
+    padding-left: 14.5cm;
+}
+
+.td2 {
+    padding: 0cm 10cm;
+}
+
+.th3 {
+    padding-left: 5cm;
+}
+
+.td3{
+    padding: 0cm 10cm;
 }
