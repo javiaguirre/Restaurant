@@ -28,26 +28,21 @@ td {
     text-align: left;
 }
 
-.th1 {
-    padding-left: 3cm; 
+.wrap{
+    text-align: center
 }
 
-.td1 {
-    padding-left: 3.5cm;
+.left {
+    float: left;
+    width: 33.33%;
 }
 
-.th2 {
-    padding-left: 14.5cm;
+.right {
+    float: left;
+    width: 33.33%;
 }
 
-.td2 {
-    padding: 0cm 10cm;
-}
-
-.th3 {
-    padding-left: 5cm;
-}
-
-.td3{
-    padding: 0cm 10cm;
+.center {
+    float: left;
+    width: 33.33%;
 }
