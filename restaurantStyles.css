@@ -5,7 +5,8 @@ body {
 
 h1 {
     color:gold;
-    font-weight: 900;
+    font-weight: 800;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 a {
@@ -45,4 +46,10 @@ td {
 .center {
     float: left;
     width: 33.33%;
+}
+
+.item {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    font-size: 14pt;
 }
