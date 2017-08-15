@@ -12,15 +12,38 @@ h1 {
 a {
     color: gold;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: indigo;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 footer {
     color:gold;
     font-weight: bold;
+    position: fixed;
+    bottom: 10%;
+    height: 30px;
+    width: 100%;
 
 }
 
 th {
     color:gold;
-    text-decoration: underline;
+    text-decoration: none;
     font-style: italic;
 }
 
