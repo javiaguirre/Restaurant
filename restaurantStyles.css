@@ -9,6 +9,11 @@ h1 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+h2 {
+    color: gold;
+    font-weight: 400;
+}
+
 a {
     color: gold;
 }
@@ -31,13 +36,14 @@ a:active {
     text-decoration: none;
 }
 
-footer {
+.footer {
     color:gold;
     font-weight: bold;
     position: fixed;
     bottom: 10%;
     height: 30px;
     width: 100%;
+
 
 }
 
@@ -75,4 +81,8 @@ td {
     font-family: 'Fjalla One', sans-serif;
     font-weight: bolder;
     font-size: 14pt;
+}
+
+hr {
+    width: 100%; 
 }
