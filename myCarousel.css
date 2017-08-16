@@ -1,0 +1,10 @@
+.item {
+    color: gold;
+    display: flex;
+    align-items: center;
+}
+
+#mycarousel {
+    width: 50%;
+    height: auto;
+}
